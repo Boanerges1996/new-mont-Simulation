@@ -1,0 +1,108 @@
+.headgrade{
+    width: 100%;
+    height: 93.9%;
+    background-color: rgb(145, 143, 143);
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    z-index: 2;
+}
+
+
+.headinputs{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(145, 143, 143);
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.headinputs div label{
+    margin-left: 8px;
+}
+.headinputs div input{
+
+}
+hr{
+    color: black;
+    border: 1px black solid;
+}
+.headinputs div table tr td span{
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    background-color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.headinputs div table tr td div img{
+    display: inline-block;
+    width: 70px;
+    height: 50px;
+    background-color: rgb(145, 143, 143);
+
+}
+.headinputs div table tr td input{
+    width: 140px;
+    padding: 3px;
+    border: 4px solid gray;
+    border-radius: 3px;
+    -moz-box-shadow: inset -1px -1px 2px #CCC;
+    -webkit-box-shadow: inset -1px -1px 2px #CCC;
+    box-shadow: inset -1px -1px 2px #CCC;
+    border-radius:5px;
+}
+.headinputs div input{
+    width: 130px;
+    height: 25px;
+    padding: 3px;
+    margin-left: 3px;
+    border: 4px solid gray;
+    border-radius: 3px;
+    -moz-box-shadow: inset -1px -1px 2px #CCC;
+    -webkit-box-shadow: inset -1px -1px 2px #CCC;
+    box-shadow: inset -1px -1px 2px #CCC;
+    border-radius:5px;
+}
+
+
+
+.headgraphs{
+    height: 60%;
+    width: 60%;
+    background-image: url('headgrade.png');
+    background-size: 100% 100%;
+    float: left;
+}
+.cyanidegraphs{
+    height: 60%;
+    width: 60%;
+    background-image: url('cyanide.png');
+    background-size: 100% 100%;
+    float: left;
+}
+.grindgraphs{
+    height: 60%;
+    width: 60%;
+    background-image: url('grind.png');
+    background-size: 100% 100%;
+    float: left;
+}
+.headdescription{
+    height: 40%;
+    width: 60%;
+    background-color: rgb(145, 143, 143);
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.headdescription h4{
+    font-size: 20px;
+}
+.headdescription h6{
+    font-size: 15px;
+}
+

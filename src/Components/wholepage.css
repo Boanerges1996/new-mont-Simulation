@@ -1,0 +1,70 @@
+.whole{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+.mainbody{
+    width: 100%;
+    height: 94%;
+    float: left;
+    background-color: rgb(145, 143, 143);
+}
+
+
+
+
+/* HEADER STYLES*/
+.tabs{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(145, 143, 143);
+    z-index: 20;
+    box-sizing: border-box;
+    padding-left: 30%;
+    float: left;
+}
+.headersame{
+    width: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+    float: left;
+    border: 1px black solid;
+    box-sizing: border-box;
+}
+.headersame:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+
+/* THIS LOGO WILL SHOW FOR ONE SECOND AND THEN VANISH */
+.Logo{
+    width: 100%;
+    height: 95%;
+    background-image: url('1.JPG');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    animation: FadeAnimation 3s ease-in .2s forwards;
+    z-index: 10;
+    position: absolute;
+    top: 37px;
+    left: 0px;
+}
+@keyframes FadeAnimation {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+  
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+}
+
+

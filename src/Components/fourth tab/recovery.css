@@ -1,0 +1,70 @@
+.recovery{
+    width: 100%;
+    height: 94%;
+    background-color: rgb(145, 143, 143);
+    text-align: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.firstPart{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(145, 143, 143);
+}
+.secondPart{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(145, 143, 143);
+}
+.firstPart table tr td input{
+    width: 140px;
+    padding: 3px;
+    border: 4px solid gray;
+    border-radius: 3px;
+    -moz-box-shadow: inset -1px -1px 2px #CCC;
+    -webkit-box-shadow: inset -1px -1px 2px #CCC;
+    box-shadow: inset -1px -1px 2px #CCC;
+    border-radius:5px;
+}
+.secondPart table tr td input{
+    width: 140px;
+    padding: 3px;
+    border: 4px solid gray;
+    border-radius: 3px;
+    -moz-box-shadow: inset -1px -1px 2px #CCC;
+    -webkit-box-shadow: inset -1px -1px 2px #CCC;
+    box-shadow: inset -1px -1px 2px #CCC;
+    border-radius:5px;
+}
+.firstPart table tr td img{
+    width: 70px;
+}
+
+
+table tr td span{
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    font-weight: bold;
+    padding: 3px;
+    box-sizing: border-box;
+    border: 4px solid gray;
+}
+table tr td img{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+.secondPart table tr td div{
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    padding: 3px;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: 4px solid gray;
+}
